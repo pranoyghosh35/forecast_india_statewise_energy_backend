@@ -26,7 +26,7 @@ and we plot the predicted values against what given in the data we used to train
 
 Refer here: https://www.kaggle.com/datasets/hangryjay/india-power-infrastructure-data
 
-We did the usual data imputations for missing, outliers, wrong values etc.
+We did the usual data imputations for missing, outliers, wrong values etc, find "India_Infras_Processed.csv" in appendices.
 
 # Try our interface here: https://forecast-india-statewise-energy.onrender.com/
 to get predictions
