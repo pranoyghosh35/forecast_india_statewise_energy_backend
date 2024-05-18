@@ -33,4 +33,4 @@ def predict():
     return jsonify({'req_crore_kWh': req_crore_kWh, 'avail_crore_kWh': avail_crore_kWh})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
