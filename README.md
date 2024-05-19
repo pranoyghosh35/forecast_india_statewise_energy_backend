@@ -1,7 +1,7 @@
 # State wise Annual Energy Forecast for India
 This repository holds a Flask app and a random forest model that takes in state, year, population. It serves as <b>backend</b>. Also find command used to build Docker image and deploy as a web service on render.
 
-The backend is live at URI='https://forecast-india-statewise-energy-backend.onrender.com/predict'. Hit it while provoding a json containing 3 fields, e.g.:
+The backend is live at URL='https://forecast-india-statewise-energy-backend.onrender.com/predict'. Hit it while provoding a json containing 3 fields, e.g.:
 
 ```json
 { "State/Union Territory": "West Bengal", "End_Year": 2024, "population(crores)": 9.97 }
